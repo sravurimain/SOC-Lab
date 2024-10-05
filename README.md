@@ -1,50 +1,50 @@
 <h1>SOC Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project involves setting up a comprehensive Security Operations Center (SOC) Lab environment. The lab is designed to simulate real-world cybersecurity scenarios and provide hands-on experience with various security tools and techniques. It includes components such as log management, intrusion detection systems, and vulnerability scanners. While it doesn't include a SIEM due to pricing considerations, this lab environment still allows users to practice threat detection, incident response, and security monitoring in a controlled home setting.
 <br />
+<h2>Tools and Technologies Used</h2>
 
+<b>Vulnerability Scanner</b> (Nessus)
 
-<h2>Languages and Utilities Used</h2>
+<b>Log Management Tools</b>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<b>Network Monitoring Tools</b> (Nmap, Wireshark)
+
+<b>Virtual Machines</b> for Simulating Network Infrastructure (Virtual Box)
+
+<b>Firewall </b> (Pfsense)
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+<b>Windows Server 2019</b>
 
-<h2>Program walk-through:</h2>
+<b>Windows 10 2024 LTS</b>
+
+<b>Kali Linux</b>
+
+<b>Pfsense</b>
+
+<b>Vulnerable Machines</b>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Virtual Machines: <br/>
+<img src="https://i.imgur.com/el3EewW.png" height="80%" width="80%" /> 
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Nmap Function:  <br/>
+<img src="https://i.imgur.com/oHanycZ.png" height="80%" width="80%" />
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installed and configured firewall via pfsense: <br/>
+<img src="https://i.imgur.com/yJE8G6z.png" height="80%" width="80%" />
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Nessus Vulnerability Scan Report:  <br/>
+<img src="https://i.imgur.com/xPDkXsX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
